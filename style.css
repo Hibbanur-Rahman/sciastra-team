@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heading h1{
+    font-size: 45px;
+}
+.heading h2{
+    color:#0d6efd;
+}
+.university{
+    width: 100%;
+    padding-top: 30px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.university .item{
+    width: 24%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 5px 1px rgb(212, 209, 209);
+
+}
+.university .item:hover{
+    box-shadow: 0px 2px 8px 6px rgb(212, 209, 209);
+    transition: all 0.4s ease-in-out;
+
+}
+.university .item h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    /* color:#354364; */
+}
+.last{
+    justify-content: center;
+}
+.last .item{
+    margin: 10px;
+}
+.veiwAll{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(39, 85, 154);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(39, 85, 154);
+    margin-left: 30px;
+}
+.veiwAll p{
+    font-weight: 900;
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.mentor{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 100px;
+}
+.mentor h1{
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.mentor .item{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+ 
+.mentor .item .upper{
+    width: 50%;
+    overflow: hidden;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mentor .item .upper img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+}
+.mentor .item .lower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.mentor .item .lower p:nth-child(1){
+    font-size: 17px;
+}
+.mentor .item .lower p:nth-child(2){
+    font-size: 15px;
+    border-bottom: 2px solid #354364;
+    padding-bottom: 15px;
+}
+
+
+
+.advisor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.advisor .item{
+    width: 27%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 8px 6px rgb(212, 209, 209);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #354364;
+    transition: all 0.4s ease-in-out;
+}
+.advisor .item:hover{
+    box-shadow: 0px 2px 13px 10px rgb(212, 209, 209);
+    transition: all 0.4s ease-in-out;
+}
+.advisor .item-mentor-advisor{
+    padding-top: 0px;
+}
+.advisor .item h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.advisor .item .profile{
+    width: 50%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.advisor .item .profile img{
+    width: 100%;
+    height: 100%;
+}
+.advisor .item .lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.advisor .item .lower h2{
+    font-size: 22px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(39, 85, 154);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    background: linear-gradient(360deg, #234EB0 5%, #9010B0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}

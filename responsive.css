@@ -1,0 +1,67 @@
+@media screen and (max-width:460px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .heading h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .heading h2 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .university .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .mentor .item {
+        width: 100%;
+        border: 1px solid rgb(196, 195, 195);
+        margin-bottom: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+
+    .mentor .item .lower p:nth-child(1) {
+        font-size: 23px;
+    }
+    .mentor .item .lower p:nth-child(2) {
+        font-size: 20px;
+        padding-top: 6px;
+    }
+
+    .advisor {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .advisor .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .advisor .item h3 {
+        font-size: 35px;
+    }
+    .advisor .item .lower h2 {
+        font-size: 32px;
+    }
+    .advisor .item  p{
+        font-size: 20px;
+    }
+    .message{
+        padding: 15px;
+        box-sizing: border-box;
+        height: 40px;
+    }
+}
